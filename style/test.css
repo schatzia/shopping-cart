@@ -3,9 +3,12 @@ nav{
 	background-image: linear-gradient(to bottom, #f6c6c6 0%, #ebb8b8 100%)
 }
 */
+body{
+	background: #F2ECE4;
+}
 #navbar{
 	/* border: 1px solid #ff0000;*/
-	padding-left:0;	
+	padding-left:0;		
 }
 .cart-header{
 	background-color: #ddd;
@@ -37,6 +40,16 @@ nav{
 	position: absolute;
 	top: 80px;
 	left: 180px;
+}
+h1{
+	color: #594C45;
+}
+#navbar > li > a{
+	// color: #8C817D;
+	color: #ff0000;
+}
+h2{
+	color: #D9998B;
 }
 
 @media screen and (max-width: 768px){
